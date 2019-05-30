@@ -11,6 +11,6 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/products-sorting.feature",tags = "~@ignore",
         plugin = {"html:target/cucumber-html-reports", "json:target/json-reports/productSorting.json"}
 )
-@Ignore
+
 public class ProductSortingRunner {
 }

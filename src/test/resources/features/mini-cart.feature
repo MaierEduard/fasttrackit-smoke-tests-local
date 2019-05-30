@@ -1,3 +1,4 @@
+
 Feature: Mini-Cart
 
   Background:

@@ -69,6 +69,5 @@ Feature:  Header
 
     And I open the homepage
     And I go to "CURSURI IT Cluj" category and I select "Curs C# .Net" option
-    #Flaviu..... .Net?
     When I click INSCRIE-TE button from Curs C# Net section
     Then I expect to be redirected to the sign up page in Curs C# Net

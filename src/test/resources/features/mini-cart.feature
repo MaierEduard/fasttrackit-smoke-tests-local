@@ -2,11 +2,11 @@
 Feature: Mini-Cart
 
   Background:
-    Given I open the homepage
 
   # avoid verbose tests
   @Ignore
   Scenario: View product in mini-cart
+    Given I open the homepage
     And I search products by "vase"
     And I store the name of the 1st product with Add to Cart button
 #    And I click on the 1st Add to Cart button

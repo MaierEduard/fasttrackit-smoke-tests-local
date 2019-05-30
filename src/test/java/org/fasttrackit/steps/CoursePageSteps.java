@@ -20,6 +20,7 @@ public class CoursePageSteps extends TestBase {
 
     @When("^I click INSCRIE-TE button from Curs Java Acreditat section$")
     public void iClickINSCRIETEButtonFromCursJavaAcreditatSection() throws InterruptedException {
+        waitForPageToLoad(10000);
         Actions actions = new Actions(driver);
         actions.moveToElement(driver.findElement(By.xpath("//strong//em")));
         actions.perform();
@@ -28,7 +29,7 @@ public class CoursePageSteps extends TestBase {
 
     @When("^I click INSCRIE-TE button from Curs Java section$")
     public void iClickINSCRIETEButtonFromCursJavaSection() throws InterruptedException {
-        Thread.sleep(1000);
+        waitForPageToLoad(10000);
 
         Actions actions = new Actions(driver);
         actions.moveToElement(driver.findElement(By.xpath("//strong//em")));
@@ -41,7 +42,7 @@ public class CoursePageSteps extends TestBase {
 
     @Then("^I expect to be redirected to the sign up page$")
     public void iExpectToBeRedirectedToTheSignUpPage() throws InterruptedException {
-        Thread.sleep(1000);
+        waitForPageToLoad(10000);
 
 
         ArrayList<String> tabs2 = new ArrayList<>(driver.getWindowHandles());
@@ -65,6 +66,7 @@ public class CoursePageSteps extends TestBase {
 
     @When("^I click INSCRIE-TE button from Curs Web Developer section$")
     public void iClickINSCRIETEButtonFromCursWebDeveloperSection() {
+        waitForPageToLoad(10000);
 
         Actions actions = new Actions(driver);
         actions.moveToElement(driver.findElement(By.xpath("//strong//em")));
@@ -76,7 +78,8 @@ public class CoursePageSteps extends TestBase {
     @Then("^I expect to be redirected to the sign up page in Curs Web Developer$")
     public void iExpectToBeRedirectedToTheSignUpPageInCursWebDeveloper() throws InterruptedException {
 
-        Thread.sleep(2000);
+        waitForPageToLoad(10000);
+
         ArrayList<String> tabs2 = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(tabs2.get(1));
         driver.switchTo().window(tabs2.get(0));
@@ -97,6 +100,8 @@ public class CoursePageSteps extends TestBase {
 
     @When("^I click INSCRIE-TE button from Curs Web Developer Acreditat section$")
     public void iClickINSCRIETEButtonFromCursWebDeveloperAcreditatSection() {
+        waitForPageToLoad(10000);
+
         Actions actions = new Actions(driver);
         actions.moveToElement(driver.findElement(By.xpath("//strong//em")));
         actions.perform();
@@ -106,6 +111,8 @@ public class CoursePageSteps extends TestBase {
 
     @When("^I click INSCRIE-TE button from Curs Web Developer React JS Oriented section$")
     public void iClickINSCRIETEButtonFromCursWebDeveloperReactJSOrientedSection() {
+        waitForPageToLoad(10000);
+
         Actions actions = new Actions(driver);
         actions.moveToElement(driver.findElement(By.xpath("//strong//em")));
         actions.perform();
@@ -116,6 +123,8 @@ public class CoursePageSteps extends TestBase {
 
     @When("^I click INSCRIE-TE button from Curs Web Developer React JS Oriented Acreditat section$")
     public void iClickINSCRIETEButtonFromCursWebDeveloperReactJSOrientedAcreditatSection() {
+        waitForPageToLoad(10000);
+
         Actions actions = new Actions(driver);
         actions.moveToElement(driver.findElement(By.xpath("//strong//em")));
         actions.perform();
@@ -126,6 +135,8 @@ public class CoursePageSteps extends TestBase {
 
     @When("^I click INSCRIE-TE button from Curs Node JS section$")
     public void iClickINSCRIETEButtonFromCursNodeJSSection() {
+        waitForPageToLoad(10000);
+
         Actions actions = new Actions(driver);
         actions.moveToElement(driver.findElement(By.xpath("//strong//em")));
         actions.perform();
@@ -136,7 +147,8 @@ public class CoursePageSteps extends TestBase {
     @Then("^I expect to be redirected to the sign up page in Curs Node JS$")
     public void iExpectToBeRedirectedToTheSignUpPageInCursNodeJS() throws InterruptedException {
 
-        Thread.sleep(2000);
+        waitForPageToLoad(10000);
+
         ArrayList<String> tabs2 = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(tabs2.get(1));
         driver.switchTo().window(tabs2.get(0));
@@ -157,6 +169,8 @@ public class CoursePageSteps extends TestBase {
 
     @When("^I click INSCRIE-TE button from Curs Node JS Acreditat section$")
     public void iClickINSCRIETEButtonFromCursNodeJSAcreditatSection() {
+        waitForPageToLoad(10000);
+
         Actions actions = new Actions(driver);
         actions.moveToElement(driver.findElement(By.xpath("//strong//em")));
         actions.perform();
@@ -167,6 +181,8 @@ public class CoursePageSteps extends TestBase {
 
     @When("^I click INSCRIE-TE button from Curs C# Net section$")
     public void iClickINSCRIETEButtonFromCursCNetSection() {
+        waitForPageToLoad(10000);
+
         Actions actions = new Actions(driver);
         actions.moveToElement(driver.findElement(By.xpath("//strong//em")));
         actions.perform();
@@ -178,7 +194,8 @@ public class CoursePageSteps extends TestBase {
     @Then("^I expect to be redirected to the sign up page in Curs C# Net$")
     public void iExpectToBeRedirectedToTheSignUpPageInCursCNet() throws InterruptedException {
 
-        Thread.sleep(2000);
+        waitForPageToLoad(10000);
+
         ArrayList<String> tabs2 = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(tabs2.get(1));
         driver.switchTo().window(tabs2.get(0));

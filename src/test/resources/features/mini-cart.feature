@@ -4,7 +4,7 @@ Feature: Mini-Cart
   Background:
 
   # avoid verbose tests
-  @Ignore
+  @PLM
   Scenario: View product in mini-cart
     Given I open the homepage
     And I search products by "vase"

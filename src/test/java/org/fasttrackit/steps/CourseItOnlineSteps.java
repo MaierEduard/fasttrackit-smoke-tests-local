@@ -59,7 +59,7 @@ public class CourseItOnlineSteps extends TestBase {
 
         waitForPageToLoad(60000);
 
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
         String coursePageTitle = cursuriItOnlinePage.pageTitle(course).getText();
         assertThat("Qa Automation page could not be accessed", getStepVariables().get("Course Name"), is(coursePageTitle));
 

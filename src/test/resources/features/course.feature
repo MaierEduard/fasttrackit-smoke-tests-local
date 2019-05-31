@@ -1,6 +1,6 @@
 Feature:  Header
 
-
+  @PLM
   Scenario:check if INSCRIE-TE button from CURSURI IT CLUJ menu works correctly from Java Curs section
 
 

@@ -1,6 +1,5 @@
 package org.fasttrackit.pageobjects;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -35,9 +34,6 @@ public class CoursePage {
 
     @FindBy(xpath = "////a[contains(@style, '3798D2')]")
     private WebElement inscrie_teButtonForCursCNet;
-
-
-
 
 
     public WebElement getInscrie_teButtonForCursCNet() {

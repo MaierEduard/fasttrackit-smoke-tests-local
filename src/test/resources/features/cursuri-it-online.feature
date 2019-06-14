@@ -6,7 +6,7 @@ Feature: Cursuri IT Online
     Given I open the homepage
     And I click on the "CURSURI IT ONLINE" category
     When I click on "QA Manual"
-    Then I expect to be redirected to the "QA Manual" page
+    Then I expect to be redirected to the "QA Manuall" page
 
   Scenario: Verify that when clicking on QA Automation section it redirects to right page
 
